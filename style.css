@@ -20,6 +20,7 @@ body {
 .logo{
  color: #f9faf8;
  font-size: 24px;
+ font-weight: bold;
 }
 
 .links{
@@ -65,11 +66,16 @@ ul {
 .subtext{
     color: #e5e7eb;
     font-size: 18px;
+    font-weight: normal;
 }
 
 button {
     background-color: #3882f6;
     color: #e5e7eb;
+    font-weight: bold;
+    padding: 4px 22px;
+    border-style: none;
+    border-radius: 7px;
 }
 
 .information {
@@ -122,10 +128,57 @@ button {
     max-width: 550px;
     flex-wrap: wrap;
     margin: 6%;
+  }
+
+  .quote {
     font-size: 36px;
-    font-weight:lighter;
+    font-weight:100;
     font-style: italic;
     color: #1F2937;
   }
 
+  .signature {
+    font-size: 36px;
+    font-weight: 900;
+    font-style: italic;
+    color: #1F2937;
+  }
+
+  .section-four {
+    display: flex;
+    justify-content: center;
+    margin: 6%;
+  }
+
+  .signup {
+  background: #3882f6;
+  width: 1300px;
+  border-radius: 10px;
+  display: flex;
+  gap: 12px;
+  padding: 40px 60px;
+  justify-content: space-between;
+  }
+
+  .signup .button {
+    display: flex;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 0px 22px;
+    font-weight: bold;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: #e5e7eb;
+  }
+
+  .footer {
+    height: 80px;
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: x-large;
+  }
 
