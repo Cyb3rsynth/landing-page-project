@@ -1,17 +1,20 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    border: 0;
 }
 
 .section-one{
     background-color: #1f2937;
+    margin: 1;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    margin: 0% 8%;
+    padding-top: 10px;
+    margin: 0% 6%;
 }
 
 .logo{
@@ -40,9 +43,17 @@ ul {
 .title{
     display: flex;
     justify-content: space-between;
-    margin: 8%;
+    margin: 6%;
     padding: 0;
     gap: 8px;
+}
+
+.section-one-image{
+
+}
+
+.text {
+    width: 400px;
 }
 
 .herotext {
@@ -60,5 +71,61 @@ button {
     background-color: #3882f6;
     color: #e5e7eb;
 }
+
+.information {
+    text-align: center;
+    margin: 20px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info img {
+    width: 280px;
+    height: 200px;
+    border: #3882f6;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);   
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+  
+.info {
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 6%;
+  }
+
+  .imgtext{
+    color: #1f2937;
+    font-size: 18px;
+  }
+
+  .section-three{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+  }
+
+  .quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 550px;
+    flex-wrap: wrap;
+    margin: 6%;
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    color: #1F2937;
+  }
 
 
