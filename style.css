@@ -11,10 +11,10 @@ body {
 }
 
 .header{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 10px;
-    margin: 0% 6%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  margin: 0% 6%;
 }
 
 .logo{
@@ -44,17 +44,25 @@ ul {
 .title{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 6%;
     padding: 0;
-    gap: 8px;
 }
 
-.section-one-image{
-
+img {
+  max-width: 100%;
+  height: auto;
+  width: 550px;
+  border-style:solid;
+  border-color: #e5e7eb;
+  border-radius: 7px;
 }
 
 .text {
     width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
 }
 
 .herotext {
