@@ -10,6 +10,13 @@ body {
     margin: 1;
 }
 
+.logo img {
+  width: 75px;
+  height: 75px;
+  border: none;
+  border-radius: 50%;
+}
+
 .header{
   display: flex;
   justify-content: space-between;
@@ -78,12 +85,12 @@ img {
 }
 
 button {
-    background-color: #3882f6;
-    color: #e5e7eb;
-    font-weight: bold;
-    padding: 4px 22px;
-    border-style: none;
-    border-radius: 7px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-weight: bold;
+  padding: 4px 22px;
+  border-style: none;
+  border-radius: 7px;
 }
 
 .information {
@@ -170,8 +177,6 @@ button {
 
   .signup .button {
     display: flex;
-    background-color: #3882f6;
-    color: #e5e7eb;
     padding: 0px 22px;
     font-weight: bold;
     border-radius: 7px;
