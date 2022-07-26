@@ -66,7 +66,7 @@ img {
 }
 
 .text {
-    width: 400px;
+    width: 550px;
     display: flex;
     flex-direction: column;
     row-gap: 8px;
@@ -104,10 +104,10 @@ button {
 .info img {
     width: 280px;
     height: 200px;
-    border: #3882f6;
+    border: #1F2937;
     border-style: solid;
-    border-radius: 10px;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.2);   
+    border-radius: 13px;
+    box-shadow: 4px 4px 16px #1F2937;   
 }
 
 .container {
@@ -127,10 +127,11 @@ button {
   .imgtext{
     color: #1f2937;
     font-size: 18px;
+    font-weight: 600;
   }
 
   .section-three{
-    background-color: #e5e7eb;
+    background-color: #1F2937;
     display: flex;
     justify-content: center;
   }
@@ -149,14 +150,14 @@ button {
     font-size: 36px;
     font-weight:100;
     font-style: italic;
-    color: #1F2937;
+    color: #f9faf8;
   }
 
   .signature {
     font-size: 36px;
     font-weight: 900;
     font-style: italic;
-    color: #1F2937;
+    color: #f9faf8;
   }
 
   .section-four {
@@ -169,10 +170,13 @@ button {
   background: #3882f6;
   width: 1300px;
   border-radius: 10px;
+  border-color: #1F2937;
+  border-style: solid;
   display: flex;
   gap: 12px;
   padding: 40px 60px;
   justify-content: space-between;
+  box-shadow: 4px 4px 16px #1F2937;
   }
 
   .signup .button {
@@ -181,7 +185,7 @@ button {
     font-weight: bold;
     border-radius: 7px;
     border-style: solid;
-    border-color: #e5e7eb;
+    border-color: #f9faf8;
   }
 
   .footer {
@@ -190,7 +194,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #e5e7eb;
+    color: #f9faf8;
     font-weight: bold;
     font-size: x-large;
   }
